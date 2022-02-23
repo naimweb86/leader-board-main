@@ -1,0 +1,55 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
+/* players setion */
+main{
+    display:flex ;
+    justify-content: center;
+}
+.top-section{
+    background-color: white;
+    width: 870px;
+    padding: 40px 35px;
+    border-radius: 10px;
+    
+}
+.section-tittle{
+    margin-top:0px;
+    font-style: normal;
+    line-height: 36px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #7757FF;
+
+}
+.top-playears{
+
+    
+
+}
+.players{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    grid-row-gap: 30px; 
+     
+}
+.player{
+    display: flex;
+    align-items: center;
+    
+}
+.player img{
+    margin-right:20px;
+    width: 56px;
+    height: 56px;
+}
+.playear-name{
+    font-size: 18px;
+}
+hr{
+    border: solid 1px rgba(0, 0, 0, 0.068);
+    margin-top: 20px;
+}
